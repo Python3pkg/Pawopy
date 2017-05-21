@@ -12,8 +12,8 @@ client = Mastodon( {
 class PawopyListener( StreamListener ) :
     
     def on_update( self, data ) :
-        print( data.content )
-        print( data.account.display_name )
+        print(( data.content ))
+        print(( data.account.display_name ))
         print()
     
     def on_notification( self, _ ) :
